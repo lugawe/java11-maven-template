@@ -8,6 +8,12 @@ Java 11 Maven Template
 ./mvnw clean install
 ```
 
+## Run application
+
+```bash
+./mvnw compile exec:java -Dexec.mainClass="com.github.lugawe.template.App"
+```
+
 ## Run tests
 
 ```bash
